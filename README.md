@@ -30,4 +30,4 @@ Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/us
 
 ## Vídeos de teste
 
-[Aqui está o link para a pasta](./cypress/videos/)
+[Aqui está o link para o vídeo do teste](./cypress/videos/CAC-TAC.spec.mp4)
