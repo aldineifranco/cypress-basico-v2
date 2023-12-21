@@ -190,12 +190,11 @@ describe("Central de Atendimento ao Cliente TAT", () => {
     );
   });
 
-  it.only("acessa a página da política de privacidade removendo o target e então clicando no link", () => {
+  it("acessa a página da política de privacidade removendo o target e então clicando no link", () => {
     cy.get("#privacy a")
       .invoke("removeAttr", "target")
-      .click()
-    
-    cy.contains('Talking About')
+      .click();
+
+    cy.contains("Talking About");
   });
 });
-
